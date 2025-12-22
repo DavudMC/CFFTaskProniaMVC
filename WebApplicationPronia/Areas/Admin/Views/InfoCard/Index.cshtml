@@ -1,0 +1,38 @@
+﻿@model List<InfoCard>
+<div class="container">
+    <div class="row">
+        <div class="row">
+            <div class="col-2">
+                <a class="btn btn-success" asp-action="Create">Create</a>
+            </div>
+        </div>
+        
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">ImagePath</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (InfoCard infocard in Model)
+                {
+                    <tr>
+                        <th scope="row">@infocard.Id</th>
+                        <td>@infocard.Title</td>
+                        <td>@infocard.Description</td>
+                        <td><img src="~/assets/images/website-images/@infocard.ImagePath" width="50" height="50" alt="Alternate Text" /> </td>
+                        <td>
+                            <a class="btn btn-warning">Update</a>
+                            <a asp-action="Delete" asp-route-id="@infocard.Id" class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
