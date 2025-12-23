@@ -11,8 +11,8 @@ using WebApplicationPronia.Contexts;
 namespace WebApplicationPronia.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20251221183959_AddedInfoCards")]
-    partial class AddedInfoCards
+    [Migration("20251223184142_AddedInfoCard")]
+    partial class AddedInfoCard
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,7 +33,6 @@ namespace WebApplicationPronia.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImagePath")
@@ -42,7 +41,8 @@ namespace WebApplicationPronia.Migrations
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.HasKey("Id");
 
