@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using WebApplicationPronia.Entities.Common;
 
 namespace WebApplicationPronia.Entities
 {
-    public class InfoCard
+    public class InfoCard:BaseEntity
     {
-        public int Id { get; set; }
+        
         [MaxLength(20)]
         [MinLength(3)]
         [Required]
