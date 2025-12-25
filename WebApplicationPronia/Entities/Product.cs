@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using WebApplicationPronia.Entities.Common;
 
 namespace WebApplicationPronia.Entities
@@ -14,11 +15,15 @@ namespace WebApplicationPronia.Entities
         [Precision(10,2)]
         [Range(0,double.MaxValue)]
         public double Price { get; set; }
-        [Required]
-        [MaxLength(512)]
-        public string ImagePath { get; set; }
-        public Category? Category { get; set; }
+        
+        public Category Category { get; set; }
         [Required]
         public int CategoryId { get; set; }
+        [Range(0,5)]
+        [Precision(2,1)]
+        public decimal Rating { get; set; }
+        public string MainImagePath { get; set; }
+        public string HoverImagePath { get; set; }
+        public ICollection<ProductImage> ProductImages { get; set; }
     }
 }

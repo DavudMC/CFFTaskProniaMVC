@@ -14,7 +14,8 @@
                     <th scope="col">Name</th>
                     <th scope="col">Description</th>
                     <th scope="col">Price</th>
-                    <th scope="col">ImagePath</th>
+                    <th scope="col">MainImagePath</th>
+                    <th scope="col">HoverImagePath</th>
                     <th scope="col">Category Name</th>
                     <th scope="col">Actions</th>
                 </tr>
@@ -27,11 +28,12 @@
                         <td>@product.Name</td>
                         <td>@product.Description</td>
                         <td>@product.Price</td>
-                        <td><img src="~/assets/images/website-images/@product.ImagePath" width="50" height="50" alt="Alternate Text" /> </td>
+                        <td><img src="~/assets/images/website-images/@product.MainImagePath" width="50" height="50" alt="Alternate Text" /> </td>
+                        <td><img src="~/assets/images/website-images/@product.HoverImagePath" width="50" height="50" alt="Alternate Text" /> </td>
                         <td>@product.Category.Name</td>
                         <td>
                             <a asp-action="Update" asp-route-id="@product.Id" class="btn btn-warning">Update</a>
-                            <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger">Delete</a>
+                            <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger deleteBtn">Delete</a>
                         </td>
                     </tr>
                 }
@@ -41,3 +43,32 @@
     </div>
 </div>
 
+<script src="~/https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    const deleteButtons = document.querySelectorAll(".deleteBtn");
+    deleteButtons.forEach(btn=>
+    {
+        btn.addEventListener("click",(e=>
+            {
+                e.preventDefault();
+                    Swal.fire({
+      title: "Are you sure?",
+      text: "You won't be able to revert this!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Yes, delete it!"
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire({
+          title: "Deleted!",
+          text: "Your file has been deleted.",
+          icon: "success"
+        });
+        window.location.href=btn.href
+      }
+    });
+            })
+    })
+</script>
