@@ -2,10 +2,11 @@
 using System.ComponentModel.DataAnnotations;
 using WebApplicationPronia.Entities.Common;
 
-namespace WebApplicationPronia.ViewModels
+namespace WebApplicationPronia.ViewModels.ProductViewModels
 {
-    public class ProductUpdateVM : BaseEntity
+    public class ProductUpdateVM
     {
+        public int Id { get; set; }
         [Required]
         public string Name { get; set; }
         [Required]
@@ -16,14 +17,17 @@ namespace WebApplicationPronia.ViewModels
         public double Price { get; set; }
         [Required]
         public int CategoryId { get; set; }
+        public List<int> TagIds { get; set; }
         [Range(0, 5)]
         [Precision(2, 1)]
         public decimal Rating { get; set; }
 
-        public IFormFile MainImage { get; set; }
+        public IFormFile? MainImage { get; set; }
 
-        public IFormFile HoverImage { get; set; }
+        public IFormFile? HoverImage { get; set; }
 
         public List<IFormFile>? Images { get; set; }
+        public string? MainImagePath { get; set; }
+        public string? HoverImagePath { get; set; }
     }
 }

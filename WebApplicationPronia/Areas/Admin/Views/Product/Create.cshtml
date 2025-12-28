@@ -1,4 +1,5 @@
-﻿@model ProductCreateVM
+﻿@using WebApplicationPronia.ViewModels.ProductViewModels
+@model ProductCreateVM
 <div class="container">
     <div class="row">
         <form method="post" enctype="multipart/form-data">
@@ -44,6 +45,17 @@
                     @foreach(Category category in ViewBag.Categories)
                     {
                         <option value="@category.Id">@category.Name</option>
+                    }
+                </select>
+                <span class="text-danger" asp-validation-for="CategoryId"></span>
+            </div>
+            <div class="form-group">
+                <label for="TagIds">TagId</label>
+                <select asp-for="TagIds" id="TagIds">
+                    
+                    @foreach (Tag tag in ViewBag.Tags)
+                    {
+                        <option value="@tag.Id">@tag.Name</option>
                     }
                 </select>
                 <span class="text-danger" asp-validation-for="CategoryId"></span>

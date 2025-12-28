@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WebApplicationPronia.ViewModels
+namespace WebApplicationPronia.ViewModels.ProductViewModels
 {
     public class ProductCreateVM
     {
@@ -16,6 +16,7 @@ namespace WebApplicationPronia.ViewModels
         public double Price { get; set; }
         [Required]
         public int CategoryId { get; set; }
+        public List<int> TagIds { get; set; }
         [Range(0, 5)]
         [Precision(2, 1)]
         public decimal Rating { get; set; }

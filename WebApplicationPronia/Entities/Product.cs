@@ -24,6 +24,7 @@ namespace WebApplicationPronia.Entities
         public decimal Rating { get; set; }
         public string MainImagePath { get; set; }
         public string HoverImagePath { get; set; }
-        public ICollection<ProductImage> ProductImages { get; set; }
+        public ICollection<ProductImage> ProductImages { get; set; } = [];
+        public ICollection<ProductTag> ProductTags { get; set; } = [];
     }
 }

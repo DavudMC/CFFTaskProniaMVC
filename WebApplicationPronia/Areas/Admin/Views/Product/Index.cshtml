@@ -1,4 +1,4 @@
-﻿@model List<Product>
+﻿@model List<ProductGetVM>
 <div class="container">
     <div class="row">
         <div class="row">
@@ -14,6 +14,7 @@
                     <th scope="col">Name</th>
                     <th scope="col">Description</th>
                     <th scope="col">Price</th>
+                    <th scope="col">Rating</th>
                     <th scope="col">MainImagePath</th>
                     <th scope="col">HoverImagePath</th>
                     <th scope="col">Category Name</th>
@@ -21,19 +22,21 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (Product product in Model)
+                @foreach (ProductGetVM product in Model)
                 {
                     <tr>
                         <th scope="row">@product.Id</th>
                         <td>@product.Name</td>
                         <td>@product.Description</td>
                         <td>@product.Price</td>
+                        <td>@product.Rating</td>
                         <td><img src="~/assets/images/website-images/@product.MainImagePath" width="50" height="50" alt="Alternate Text" /> </td>
                         <td><img src="~/assets/images/website-images/@product.HoverImagePath" width="50" height="50" alt="Alternate Text" /> </td>
-                        <td>@product.Category.Name</td>
+                        <td>@product.CategoryName</td>
                         <td>
-                            <a asp-action="Update" asp-route-id="@product.Id" class="btn btn-warning">Update</a>
-                            <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger deleteBtn">Delete</a>
+                            <a asp-action="Detail" asp-route-id="@product.Id" class="btn btn-primary"><i class="fa-solid fa-info"></i></a>
+                            <a asp-action="Update" asp-route-id="@product.Id" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a>
+                            <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger deleteBtn"><i class="fa-solid fa-trash-can"></i></a>
                         </td>
                     </tr>
                 }
