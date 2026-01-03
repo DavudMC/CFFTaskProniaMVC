@@ -1072,3 +1072,7 @@ wwwroot\Admin\assets\vendors\typeahead.js\typeahead.bundle.min.js
 wwwroot\assets\images\website-images\707ada5e-37fa-4bda-8d4d-4b38fe02ad92Screenshot (81).png
 wwwroot\assets\images\website-images\a1a52466-ca01-40a5-941f-96c37bb92598Screenshot (82).png
 wwwroot\assets\images\website-images\3d01186e-e686-4b68-ae32-104862aab40fScreenshot (125).png
+wwwroot\assets\images\website-images\bf182579-fcbc-4c04-8053-3a4f5426742dScreenshot (82).png
+wwwroot\assets\images\website-images\cfe1b0f7-f88f-42fa-885c-b7f2411789a5Screenshot (80).png
+wwwroot\assets\images\website-images\d34557c4-7bd6-464e-966f-3d73f578b2d4Screenshot (81).png
+wwwroot\assets\images\website-images\e07dce82-42f7-446c-a00a-74a62d6c7e0eScreenshot (80).png

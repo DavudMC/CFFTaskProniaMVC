@@ -3,88 +3,96 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Migrations\\20251228190153_AddedTags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplicationPronia\\Migrations\\20251228190153_AddedTags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\entities\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\entities\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\viewmodels\\productviewmodels\\productcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\viewmodels\\productviewmodels\\productcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\viewmodels\\productviewmodels\\productgetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\viewmodels\\productviewmodels\\productgetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\viewmodels\\productviewmodels\\productupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\viewmodels\\productviewmodels\\productupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\areas\\admin\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\areas\\admin\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\helpers\\extensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\helpers\\extensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\entities\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\entities\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\entities\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\entities\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\entities\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\entities\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\helpers\\extensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\helpers\\extensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\viewmodels\\productviewmodels\\productgetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\viewmodels\\productviewmodels\\productgetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\viewmodels\\productviewmodels\\productupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\viewmodels\\productviewmodels\\productupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\viewmodels\\productviewmodels\\productcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\viewmodels\\productviewmodels\\productcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\areas\\admin\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\areas\\admin\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|c:\\users\\user\\desktop\\c#cff\\taskmvcs\\webapplicationpronia\\webapplicationpronia\\migrations\\20251228190153_addedtags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102CB7D5-85B7-4851-A5A6-88F1C02353E4}|WebApplicationPronia\\WebApplicationPronia.csproj|solutionrelative:webapplicationpronia\\migrations\\20251228190153_addedtags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,210 +102,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20251228190153_AddedTags.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Migrations\\20251228190153_AddedTags.cs",
-              "RelativeDocumentMoniker": "WebApplicationPronia\\Migrations\\20251228190153_AddedTags.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Migrations\\20251228190153_AddedTags.cs",
-              "RelativeToolTip": "WebApplicationPronia\\Migrations\\20251228190153_AddedTags.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T19:01:53.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Contexts\\AppDBContext.cs",
-              "RelativeDocumentMoniker": "WebApplicationPronia\\Contexts\\AppDBContext.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Contexts\\AppDBContext.cs",
-              "RelativeToolTip": "WebApplicationPronia\\Contexts\\AppDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T18:59:53.023Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductTag.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Entities\\ProductTag.cs",
-              "RelativeDocumentMoniker": "WebApplicationPronia\\Entities\\ProductTag.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Entities\\ProductTag.cs",
-              "RelativeToolTip": "WebApplicationPronia\\Entities\\ProductTag.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T18:55:42.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Tag.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Entities\\Tag.cs",
-              "RelativeDocumentMoniker": "WebApplicationPronia\\Entities\\Tag.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Entities\\Tag.cs",
-              "RelativeToolTip": "WebApplicationPronia\\Entities\\Tag.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T18:52:36.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductGetVM.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductGetVM.cs",
-              "RelativeDocumentMoniker": "WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductGetVM.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductGetVM.cs",
-              "RelativeToolTip": "WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductGetVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T17:58:59.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "RelativeToolTip": "WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-25T19:26:17.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "WebApplicationPronia\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "WebApplicationPronia\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAANgAAAAAAAAAAAAAAN4AAABvAAAAAAAAAA==",
+              "Title": "ProductImage.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Entities\\ProductImage.cs",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\Entities\\ProductImage.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Entities\\ProductImage.cs",
+              "RelativeToolTip": "WebApplicationPronia\\Entities\\ProductImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T19:25:48.658Z",
+              "WhenOpened": "2025-12-25T19:24:57.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-25T19:26:24.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "WebApplicationPronia\\Entities\\Product.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Entities\\Product.cs",
               "RelativeToolTip": "WebApplicationPronia\\Entities\\Product.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAowBsAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-25T19:05:53.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductUpdateVM.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductUpdateVM.cs",
-              "RelativeDocumentMoniker": "WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductUpdateVM.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductUpdateVM.cs",
-              "RelativeToolTip": "WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductUpdateVM.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA3wB0AAAAsAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "WebApplicationPronia\\Controllers\\ShopController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T21:19:27.934Z",
+              "WhenOpened": "2025-12-25T20:49:29.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductCreateVM.cs",
-              "RelativeDocumentMoniker": "WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductCreateVM.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductCreateVM.cs",
-              "RelativeToolTip": "WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductCreateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T19:33:33.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationPronia\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AgIAAAEBAAAAAAAAAAAkwNAEAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-25T19:26:05.924Z",
+              "WhenOpened": "2025-12-25T21:01:05.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationPronia\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApplicationPronia\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-28T17:43:35.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
-              "RelativeToolTip": "WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABOAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Views\\Shop\\Detail.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\Views\\Shop\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Views\\Shop\\Detail.cshtml",
+              "RelativeToolTip": "WebApplicationPronia\\Views\\Shop\\Detail.cshtml",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAkwGYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-28T17:49:02.638Z",
+              "WhenOpened": "2026-01-03T20:32:19.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationPronia\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "WebApplicationPronia\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-25T19:42:17.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
               "Title": "ExtensionMethods.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Helpers\\ExtensionMethods.cs",
               "RelativeDocumentMoniker": "WebApplicationPronia\\Helpers\\ExtensionMethods.cs",
@@ -310,19 +188,213 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ProductImage.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Entities\\ProductImage.cs",
-              "RelativeDocumentMoniker": "WebApplicationPronia\\Entities\\ProductImage.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Entities\\ProductImage.cs",
-              "RelativeToolTip": "WebApplicationPronia\\Entities\\ProductImage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebApplicationPronia\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T19:24:57.112Z"
+              "WhenOpened": "2025-12-25T19:25:48.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductTag.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Entities\\ProductTag.cs",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\Entities\\ProductTag.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Entities\\ProductTag.cs",
+              "RelativeToolTip": "WebApplicationPronia\\Entities\\ProductTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:55:42.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Entities\\Tag.cs",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\Entities\\Tag.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Entities\\Tag.cs",
+              "RelativeToolTip": "WebApplicationPronia\\Entities\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:52:36.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductGetVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductGetVM.cs",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductGetVM.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductGetVM.cs",
+              "RelativeToolTip": "WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductGetVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:58:59.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationPronia\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-25T22:23:34.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-25T19:26:05.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductUpdateVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductUpdateVM.cs",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductUpdateVM.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductUpdateVM.cs",
+              "RelativeToolTip": "WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductUpdateVM.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA5wB8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T21:19:27.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductCreateVM.cs",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductCreateVM.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductCreateVM.cs",
+              "RelativeToolTip": "WebApplicationPronia\\ViewModels\\ProductViewModels\\ProductCreateVM.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T19:33:33.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebApplicationPronia\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-25T19:42:17.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplicationPronia\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAABIAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T17:43:35.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAF0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-25T19:26:17.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
+              "RelativeToolTip": "WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T17:49:02.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationPronia\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-25T19:26:24.702Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebApplicationPronia\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-03T20:37:43.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20251228190153_AddedTags.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Migrations\\20251228190153_AddedTags.cs",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\Migrations\\20251228190153_AddedTags.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Migrations\\20251228190153_AddedTags.cs",
+              "RelativeToolTip": "WebApplicationPronia\\Migrations\\20251228190153_AddedTags.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T19:01:53.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Contexts\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "WebApplicationPronia\\Contexts\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Contexts\\AppDBContext.cs",
+              "RelativeToolTip": "WebApplicationPronia\\Contexts\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:59:53.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplicationPronia\\Views\\Shared\\_Layout.cshtml",
@@ -331,42 +403,6 @@
               "ViewState": "AgIAAOMEAAAAAAAAAAAAAE4EAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-25T21:32:06.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Views\\Shop\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationPronia\\Views\\Shop\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Views\\Shop\\Index.cshtml",
-              "RelativeToolTip": "WebApplicationPronia\\Views\\Shop\\Index.cshtml",
-              "ViewState": "AgIAAAgBAAAAAAAAAAAAACMBAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-25T21:01:05.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationPronia\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebApplicationPronia\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-25T22:23:34.766Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ShopController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Controllers\\ShopController.cs",
-              "RelativeDocumentMoniker": "WebApplicationPronia\\Controllers\\ShopController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#CFF\\TaskMVCs\\WebApplicationPronia\\WebApplicationPronia\\Controllers\\ShopController.cs",
-              "RelativeToolTip": "WebApplicationPronia\\Controllers\\ShopController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T20:49:29.958Z"
             }
           ]
         }

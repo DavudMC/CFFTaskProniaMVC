@@ -81,14 +81,30 @@ namespace WebApplicationPronia.Areas.Admin.Controllers
                 ModelState.AddModelError("HoverImage", "Image-in size-i 2 mb-dan cox olmamalidir!");
                 return View(productvm);
             }
-            string uniqueMainImageName = Guid.NewGuid().ToString() + productvm.MainImage.FileName;
-            string mainimagePath = Path.Combine(_environment.WebRootPath, "assets", "images", "website-images", uniqueMainImageName);
-            using FileStream mainstream = new FileStream(mainimagePath,FileMode.Create);
-            await productvm.MainImage.CopyToAsync(mainstream);
-            string uniqueHoverImageName = Guid.NewGuid().ToString() + productvm.HoverImage.FileName;
-            string hoverimagePath = Path.Combine(_environment.WebRootPath, "assets", "images", "website-images", uniqueHoverImageName);
-            using FileStream hoverstream = new FileStream(hoverimagePath, FileMode.Create);
-            await productvm.HoverImage.CopyToAsync(hoverstream);
+            foreach(var image in productvm.Images)
+            {
+                if (!image.CheckType())
+                {
+                    ModelState.AddModelError("HoverImage", "Yalniz sekil formatinda data daxil edile biler!");
+                    return View(productvm);
+                }
+                if (!image.CheckSize(2))
+                {
+                    ModelState.AddModelError("HoverImage", "Image-in size-i 2 mb-dan cox olmamalidir!");
+                    return View(productvm);
+                }
+            }
+            string folderPath = Path.Combine(_environment.WebRootPath, "assets", "images", "website-images");
+            string uniqueMainImageName = await productvm.MainImage.SaveFileAsync(folderPath);
+            string uniqueHoverImageName = await productvm.HoverImage.SaveFileAsync(folderPath);
+            //string uniqueMainImageName = Guid.NewGuid().ToString() + productvm.MainImage.FileName;
+            //string mainimagePath = Path.Combine(_environment.WebRootPath, "assets", "images", "website-images", uniqueMainImageName);
+            //using FileStream mainstream = new FileStream(mainimagePath,FileMode.Create);
+            //await productvm.MainImage.CopyToAsync(mainstream);
+            //string uniqueHoverImageName = Guid.NewGuid().ToString() + productvm.HoverImage.FileName;
+            //string hoverimagePath = Path.Combine(_environment.WebRootPath, "assets", "images", "website-images", uniqueHoverImageName);
+            //using FileStream hoverstream = new FileStream(hoverimagePath, FileMode.Create);
+            //await productvm.HoverImage.CopyToAsync(hoverstream);
             Product product = new() 
             {
                 Name = productvm.Name,
@@ -98,8 +114,20 @@ namespace WebApplicationPronia.Areas.Admin.Controllers
                 Rating = productvm.Rating,
                 MainImagePath = uniqueMainImageName,
                 HoverImagePath = uniqueHoverImageName,
-                ProductTags = []
+                ProductTags = [],
+                ProductImages = []
             };
+            foreach (var image in productvm.Images) 
+            {
+                string uniquefilePath = await image.SaveFileAsync(folderPath);
+                ProductImage productImage = new()
+                {
+                    ImagePath = uniquefilePath,
+                    Product = product,
+                };
+                product.ProductImages.Add(productImage);
+            }
+            
             foreach(var tagId in productvm.TagIds)
             {
                 ProductTag productTag = new ProductTag()
@@ -117,24 +145,24 @@ namespace WebApplicationPronia.Areas.Admin.Controllers
         
         public async Task<IActionResult> Delete(int id) 
         {
-            var product = await _context.Products.FindAsync(id);
+            var product = await _context.Products.Include(images=>images.ProductImages).FirstOrDefaultAsync(x=>x.Id == id);
             if (product == null) 
             {
                 return NotFound();
             }
             _context.Products.Remove(product);
             await _context.SaveChangesAsync();
-            string folderaPath = Path.Combine(_environment.WebRootPath,"assets","images","website-images");
-            string mainimagePath = Path.Combine(folderaPath, product.MainImagePath);
-            string hoverimagePath = Path.Combine(folderaPath, product.HoverImagePath);
-            if(System.IO.File.Exists(mainimagePath))
-            {
-                System.IO.File.Delete(mainimagePath);
-            }
+            string folderPath = Path.Combine(_environment.WebRootPath,"assets","images","website-images");
+            string mainimagePath = Path.Combine(folderPath, product.MainImagePath);
+            string hoverimagePath = Path.Combine(folderPath, product.HoverImagePath);
             
-            if(System.IO.File.Exists(hoverimagePath))
+            ExtensionMethods.DeleteFile(mainimagePath);
+            
+            ExtensionMethods.DeleteFile(hoverimagePath);
+            foreach(var productImage in product.ProductImages)
             {
-                System.IO.File.Delete(hoverimagePath);
+                string imagePath = Path.Combine(folderPath, productImage.ImagePath);
+                ExtensionMethods.DeleteFile(imagePath);
             }
             
             return RedirectToAction(nameof(Index));
@@ -142,7 +170,7 @@ namespace WebApplicationPronia.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> Update(int id)
         {
-            var product = await _context.Products.Include(x=> x.ProductTags).FirstOrDefaultAsync(x=>x.Id == id);
+            var product = await _context.Products.Include(x=> x.ProductTags).Include(x=>x.ProductImages).FirstOrDefaultAsync(x=>x.Id == id);
             if (product == null) 
             {
                 return NotFound();
@@ -157,7 +185,9 @@ namespace WebApplicationPronia.Areas.Admin.Controllers
                 Price = product.Price,
                 MainImagePath = product.MainImagePath,
                 HoverImagePath = product.HoverImagePath,
-                TagIds = product.ProductTags.Select(t => t.TagId).ToList()
+                TagIds = product.ProductTags.Select(t => t.TagId).ToList(),
+                AdditionalImagePaths = product.ProductImages.Select(testc=> testc.ImagePath).ToList(),
+                AdditionalImageIds = product.ProductImages.Select(x=>x.Id).ToList()
             };
 
             return View(vm);
@@ -171,7 +201,7 @@ namespace WebApplicationPronia.Areas.Admin.Controllers
                 await SendItemsToView();
                 return View(productvm);
             }
-            var isexistproduct = await _context.Products.Include(x=>x.ProductTags).FirstOrDefaultAsync(x=>x.Id == productvm.Id);
+            var isexistproduct = await _context.Products.Include(x=>x.ProductTags).Include(x=>x.ProductImages).FirstOrDefaultAsync(x=>x.Id == productvm.Id);
             if(isexistproduct is null)
             {
                 return BadRequest();
@@ -213,6 +243,19 @@ namespace WebApplicationPronia.Areas.Admin.Controllers
                 ModelState.AddModelError("HoverImage", "Image-in size-i 2 mb-dan cox olmamalidir!");
                 return View(productvm);
             }
+            foreach (var image in productvm.Images ?? new())
+            {
+                if (!image.CheckType())
+                {
+                    ModelState.AddModelError("HoverImage", "Yalniz sekil formatinda data daxil edile biler!");
+                    return View(productvm);
+                }
+                if (!image.CheckSize(2))
+                {
+                    ModelState.AddModelError("HoverImage", "Image-in size-i 2 mb-dan cox olmamalidir!");
+                    return View(productvm);
+                }
+            }
             //string uniqueMainImageName = Guid.NewGuid().ToString() + productvm.MainImage.FileName;
             //string mainimagePath = Path.Combine(_environment.WebRootPath, "assets", "images", "website-images", uniqueMainImageName);
             //using FileStream mainstream = new FileStream(mainimagePath, FileMode.Create);
@@ -235,9 +278,11 @@ namespace WebApplicationPronia.Areas.Admin.Controllers
                 };
                 isexistproduct.ProductTags.Add(productTag);
             }
+            
 
             string folderPath = Path.Combine(_environment.WebRootPath, "assets","images","website-images");
-            if(productvm.MainImage is { })
+            
+            if (productvm.MainImage is { })
             {
                 string newMainImagePath = await productvm.MainImage.SaveFileAsync(folderPath);
                 string existMainImagePath = Path.Combine(_environment.WebRootPath, isexistproduct.MainImagePath);
@@ -250,6 +295,27 @@ namespace WebApplicationPronia.Areas.Admin.Controllers
                 string existHoverImagePath = Path.Combine(_environment.WebRootPath, isexistproduct.HoverImagePath);
                 ExtensionMethods.DeleteFile(existHoverImagePath);
                 isexistproduct.HoverImagePath = newHoverImagePath;
+            }
+            var existImages = isexistproduct.ProductImages.ToList();
+            foreach(var image in existImages)
+            {
+                var isexistImageId = productvm.AdditionalImageIds?.Any(x=>x == image.Id) ?? false;
+                if(!isexistImageId)
+                {
+                    string deletedImagePath = Path.Combine(folderPath, image.ImagePath);
+                    ExtensionMethods.DeleteFile(deletedImagePath);
+                    isexistproduct.ProductImages.Remove(image);
+                }
+            }
+            foreach (var image in productvm.Images ?? new())
+            {
+                string uniquefilePath = await image.SaveFileAsync(folderPath);
+                ProductImage productImage = new()
+                {
+                    ImagePath = uniquefilePath,
+                    ProductId = isexistproduct.Id,
+                };
+                isexistproduct.ProductImages.Add(productImage);
             }
             _context.Products.Update(isexistproduct);
             await _context.SaveChangesAsync();
@@ -274,7 +340,8 @@ namespace WebApplicationPronia.Areas.Admin.Controllers
                 MainImagePath = product.MainImagePath,
                 Price = product.Price,
                 Rating = product.Rating,
-                TagNames = product.ProductTags.Select(x=> x.Tag.Name).ToList()
+                TagNames = product.ProductTags.Select(x=> x.Tag.Name).ToList(),
+                AdditionalImagePaths = product.ProductImages.Select(x=>x.ImagePath).ToList()
             }).FirstOrDefaultAsync(x => x.Id == id);
 
             if (product == null) 

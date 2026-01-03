@@ -29,5 +29,7 @@ namespace WebApplicationPronia.ViewModels.ProductViewModels
         public List<IFormFile>? Images { get; set; }
         public string? MainImagePath { get; set; }
         public string? HoverImagePath { get; set; }
+        public List<string>? AdditionalImagePaths { get; set; } = [];
+        public List<int>? AdditionalImageIds { get; set; } = [];
     }
 }

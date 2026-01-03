@@ -1,5 +1,4 @@
-﻿
-@model ProductUpdateVM
+﻿@model ProductUpdateVM
 <div class="container">
     <div class="row">
         <form method="post" enctype="multipart/form-data">
@@ -26,15 +25,32 @@
                 <span class="text-danger" asp-validation-for="MainImage"></span>
             </div>
             <div class="form-group">
-                <input type="hidden" asp-for="HoverImagePath" />
+
                 <img src="~/assets/images/website-images/@Model.HoverImagePath" width="50" heigth="50" alt="Alternate Text" />
                 <label for="HoverImage">HoverImage</label>
                 <input asp-for="HoverImage" class="form-control" id="HoverImage" placeholder="HoverImage">
                 <span class="text-danger" asp-validation-for="HoverImage"></span>
             </div>
             <div class="form-group">
+                @* @foreach(var image in Model.AdditionalImagePaths ?? new())
+                {
+                    
+                } *@
+                @for (int i = 0; i < Model.AdditionalImagePaths.Count; i++)
+                {
+                    string image = Model.AdditionalImagePaths[i];
+                    <div class="imageDiv">
+                        <input type="hidden" asp-for="AdditionalImagePaths" value="@image" />
+                        <input type="hidden" asp-for="AdditionalImageIds" value="@Model.AdditionalImageIds[i]" />
+                        <div class="image" style="position:relative;width:50px;height:50px;display:inline">
+                            <img src="~/assets/images/website-images/@image" width="50" heigth="50" alt="Alternate Text" />
+                            <span style="position:absolute; right:4px; top:-14px;padding:1px; margin:10px;background-color:red;color:white; font-size:10px; cursor:pointer " class="closeButton">X</span>
+                        </div>
+                    </div>
+
+                }
                 <label for="Images">Images</label>
-                <input asp-for="Images" class="form-control" id="Images" placeholder="Images">
+                <input asp-for="Images" class="form-control" id="Images">
                 <span class="text-danger" asp-validation-for="Images"></span>
             </div>
             <div class="form-group">
@@ -56,7 +72,7 @@
             <div class="form-group">
                 <label for="TagIds">TagId</label>
                 <select asp-for="TagIds" id="TagIds">
-                    
+
                     @foreach (Tag tag in ViewBag.Tags)
                     {
                         <option value="@tag.Id">@tag.Name</option>
@@ -69,6 +85,17 @@
         </form>
     </div>
 </div>
+<script>
+    const removeButtons = document.querySelectorAll(".closeButton");
+    removeButtons.forEach(btn=> {
+        btn.addEventListener("click",(e) =>
+        {
+            e.preventDefault();
+            btn.parentElement.parentElement.remove();
+        })
+    })
+
+</script>
 
 
 
