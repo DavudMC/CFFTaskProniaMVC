@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using WebApplicationPronia.Contexts;
@@ -9,6 +10,7 @@ using WebApplicationPronia.ViewModels.ProductViewModels;
 namespace WebApplicationPronia.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class ProductController(AppDBContext _context,IWebHostEnvironment _environment) : Controller
     {
         public async Task<IActionResult> Index()

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 using WebApplicationPronia.Entities;
 
 namespace WebApplicationPronia.Contexts
@@ -9,6 +10,11 @@ namespace WebApplicationPronia.Contexts
         public AppDBContext(DbContextOptions option) : base(option) 
         {
             
+        }
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            base.OnModelCreating(builder);
         }
         public DbSet<InfoCard> InfoCards { get; set; }
         public DbSet<Product> Products { get; set; }

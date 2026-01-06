@@ -5,8 +5,9 @@ namespace WebApplicationPronia.Entities
 {
     public class Category : BaseEntity
     {
-        [Required]
-        [MaxLength(100)]
+        //[Required]
+        //[MaxLength(100)]
         public string Name { get; set; }
+        public ICollection<Product> Products { get; set; }
     }
 }

@@ -7,8 +7,8 @@ namespace WebApplicationPronia.Entities
     {
         public Product? Product { get; set; }
         public int ProductId { get; set; }
-        [Required]
-        [MaxLength(512)]
+        //[Required]
+        //[MaxLength(512)]
         public string ImagePath { get; set; }
     }
 }

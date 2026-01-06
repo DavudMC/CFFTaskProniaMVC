@@ -14,7 +14,7 @@ namespace WebApplicationPronia.ViewModels.ProductViewModels
         [Required]
         [Precision(10, 2)]
         [Range(0, double.MaxValue)]
-        public double Price { get; set; }
+        public decimal Price { get; set; }
         [Required]
         public int CategoryId { get; set; }
         public List<int> TagIds { get; set; }

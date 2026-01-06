@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using WebApplicationPronia.Contexts;
@@ -7,6 +8,7 @@ using WebApplicationPronia.Entities;
 namespace WebApplicationPronia.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class InfoCardController(AppDBContext _context) : Controller
     {
         public async Task<IActionResult> Index()
