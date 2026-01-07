@@ -125,7 +125,7 @@
                                             </button>
                                             <ul class="dropdown-menu"
                                                 aria-labelledby="settingButton">
-                                                @if(User?.Identity?.IsAuthenticated ?? false)
+                                                @if (User?.Identity?.IsAuthenticated ?? false)
                                                 {
                                                     <li>
                                                         <a class="dropdown-item" href="my-account.html">@User.Identity.Name</a>
@@ -141,7 +141,7 @@
                                                         <a class="dropdown-item" asp-action="Register" asp-controller="Account">Register</a>
                                                     </li>
                                                 }
-                                                
+
                                             </ul>
                                         </li>
                                         <li class="d-none d-lg-block">
@@ -288,7 +288,7 @@
                                         <li>
                                             <a href="contact.html">Contact Us</a>
                                         </li>
-                                        @if(User?.IsInRole("Admin") ?? false)
+                                        @if (User?.IsInRole("Admin") ?? false)
                                         {
                                             <li>
                                                 <a asp-action="Index" asp-controller="Dashboard" asp-area="Admin">Admin</a>
@@ -1265,10 +1265,36 @@
         </a>
         <!-- Scroll To Top End Here -->
     </div>
-
+    <input type="hidden" class="successMessage" value="@TempData["SuccessMessage"]">
+    <input type="hidden" class="errorMessage" value="@TempData["ErrorMessage"]">
     <!-- Global Vendor, plugins JS -->
     <!-- JS Files
     ============================================ -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        const successInput = QuerySelector(".successMessage");
+        const errorInput = QuerySelector(".errorMessage");
+        if(successInput.value!= null && successInput.value.length>0) {
+                    Swal.fire({
+          position: "center",
+          icon: "success",
+          title: successInput.value,
+          showConfirmButton: false,
+          timer: 10000
+        });
+
+        }
+        if(errorInput.value!= null && errorInput.value.length>0) {
+                            Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: errorInput.value,
+          footer: '<a href="#">Why do I have this issue?</a>'
+        });
+
+        }
+    </script>
 
     <script src="~/assets/js/vendor/bootstrap.bundle.min.js"></script>
     <script src="~/assets/js/vendor/jquery-3.6.0.min.js"></script>
@@ -1288,4 +1314,5 @@
     <!--Main JS (Common Activation Codes)-->
     <script src="~/assets/js/main.js"></script>
 </body>
-</html>
+</html>
+

@@ -1,18 +1,24 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
+using WebApplicationPronia.Abstractions;
 using WebApplicationPronia.Contexts;
 using WebApplicationPronia.ViewModels.ProductViewModels;
 
 namespace WebApplicationPronia.Controllers
 {
     
-    public class ShopController(AppDBContext _context) : Controller
+    public class ShopController(AppDBContext _context,IEmailService _emailService) : Controller
     {
         public async Task<IActionResult> Index()
         {
             var products = await _context.Products.ToListAsync();
             return View(products);
+        }
+        public async Task<IActionResult> Test()
+        {
+            await _emailService.SendEmailAsync("davudfm-mpa101@code.edu.az", "MPA-101", "Email Service is done");
+            return Ok("Ok");
         }
         [HttpGet]
         public async Task<IActionResult> Detail(int id)
