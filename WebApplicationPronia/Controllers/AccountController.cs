@@ -82,6 +82,8 @@ namespace WebApplicationPronia.Controllers
                 return View(loginVM);
             }
             await _signinManager.SignInAsync(user, loginVM.IsRemember);
+            if(!string.IsNullOrWhiteSpace(loginVM.ReturnUrl))
+                return Redirect(loginVM.ReturnUrl);
             return RedirectToAction("Index", "Home");
         }
         public async Task<IActionResult> Logout()

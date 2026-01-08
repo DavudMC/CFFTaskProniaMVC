@@ -26,5 +26,6 @@ namespace WebApplicationPronia.Entities
         public string HoverImagePath { get; set; }
         public ICollection<ProductImage> ProductImages { get; set; } = [];
         public ICollection<ProductTag> ProductTags { get; set; } = [];
+        public ICollection<BasketItem> BasketItems { get; set; } = [];
     }
 }
