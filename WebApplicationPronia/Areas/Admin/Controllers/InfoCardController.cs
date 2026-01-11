@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
+using WebApplicationPronia.Abstractions;
 using WebApplicationPronia.Contexts;
 using WebApplicationPronia.Entities;
 
@@ -9,7 +10,7 @@ namespace WebApplicationPronia.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = "Admin")]
-    public class InfoCardController(AppDBContext _context) : Controller
+    public class InfoCardController(AppDBContext _context,ICloudinaryService _cloudinaryService) : Controller
     {
         public async Task<IActionResult> Index()
         {
@@ -22,13 +23,17 @@ namespace WebApplicationPronia.Areas.Admin.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Create(InfoCard ınfoCard) 
+        public async Task<IActionResult> Create(InfoCard infoCard) 
         {
             if (!ModelState.IsValid) 
             {
                 return View();
             }
-            await _context.InfoCards.AddAsync(ınfoCard);
+            //===>//
+            //infoCard.ImagePath = await _cloudinaryService.FileUploadAsync(infoCard.Image); Must be fixed
+            //<==//
+
+            await _context.InfoCards.AddAsync(infoCard);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
@@ -39,6 +44,7 @@ namespace WebApplicationPronia.Areas.Admin.Controllers
                 return NotFound();
             _context.InfoCards.Remove(infocard);
             await _context.SaveChangesAsync();
+            //await _cloudinaryService.FileDeleteAsync(infocard.ImagePath); must be fixed;
             return RedirectToAction(nameof(Index));
         }
         [HttpGet]

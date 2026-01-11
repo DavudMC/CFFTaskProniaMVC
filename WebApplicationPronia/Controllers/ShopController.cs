@@ -64,7 +64,6 @@ namespace WebApplicationPronia.Controllers
                 isexistbasketItem.Count++;
                 _context.BasketItems.Update(isexistbasketItem);
                 await _context.SaveChangesAsync();
-
             }
             else
             {

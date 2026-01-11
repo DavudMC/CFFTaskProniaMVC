@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
+using WebApplicationPronia.Abstractions;
 using WebApplicationPronia.Contexts;
 using WebApplicationPronia.Entities;
 using WebApplicationPronia.Helpers;
@@ -11,7 +12,7 @@ namespace WebApplicationPronia.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = "Admin")]
-    public class ProductController(AppDBContext _context,IWebHostEnvironment _environment) : Controller
+    public class ProductController(AppDBContext _context,IWebHostEnvironment _environment,ICloudinaryService _cloudinaryService) : Controller
     {
         public async Task<IActionResult> Index()
         {
@@ -99,6 +100,7 @@ namespace WebApplicationPronia.Areas.Admin.Controllers
             string folderPath = Path.Combine(_environment.WebRootPath, "assets", "images", "website-images");
             string uniqueMainImageName = await productvm.MainImage.SaveFileAsync(folderPath);
             string uniqueHoverImageName = await productvm.HoverImage.SaveFileAsync(folderPath);
+            
             //string uniqueMainImageName = Guid.NewGuid().ToString() + productvm.MainImage.FileName;
             //string mainimagePath = Path.Combine(_environment.WebRootPath, "assets", "images", "website-images", uniqueMainImageName);
             //using FileStream mainstream = new FileStream(mainimagePath,FileMode.Create);
